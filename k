@@ -1,0 +1,84 @@
+{
+    "columns": {
+        "Header": "Annotations",
+        "columns": [
+            {
+            "Header": "id",
+            "accessor": "id"
+            },
+            {
+            "Header": "Glo",
+            "accessor": "global_id"
+            },
+            {
+              "Header": "Confidence",
+              "accessor": "confidence"
+            },
+            {
+              "Header": "Behavior",
+              "accessor": "behavior"
+            },
+            {
+            "Header": "Posture",
+            "accessor": "posture"
+            }
+
+        ]
+    },
+    "select_data": {
+      "confidence": [{
+          "value": "No occlusion",
+          "label": "No occlusion"
+        },{
+          "value": "Minor occlusion",
+          "label": "Minor occlusion"
+        },{
+          "value": "Split occlusion",
+          "label": "Split occlusion"
+        },{
+          "value": "End occlusion",
+          "label": "End occlusion"
+        },{
+          "value": "Critical occlusion",
+          "label": "Critical occlusion"
+        }
+      ],
+      "behavior": [{
+          "value": "Feeding",
+          "label": "Feeding"
+        },{
+          "value": "Drinking",
+          "label": "Drinking"
+        },{
+          "value": "Exploratory",
+          "label": "Exploratory"
+        },{
+          "value": "Social",
+          "label": "Social"
+        },{
+          "value": "Locomotion",
+          "label": "Locomotion"
+        },{
+          "value": "Proximity",
+          "label": "Proximity"
+        },{
+          "value": "Others",
+          "label": "Others"
+        }
+      ],
+      "posture": [{
+          "value": "Lying",
+          "label": "Lying"
+        },{
+          "value": "Sitting",
+          "label": "Sitting"
+        },{
+          "value": "Kneeling",
+          "label": "Kneeling"
+        },{
+          "value": "Standing",
+          "label": "Standing"
+        }
+      ]
+  }
+}
